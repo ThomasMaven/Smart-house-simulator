@@ -1,0 +1,134 @@
+
+#dom img{
+      position: absolute;
+        align-content: center;
+  
+
+      
+}
+
+
+#KaloryferWlaczony_1{
+    
+  position: absolute;
+  float:left;
+  margin-left:254.8px ;
+  margin-top: 207px;
+ 
+}
+
+#KaloryferWlaczony_2{
+    position: absolute;
+     float:left;
+     margin-top: 206.5px;
+     margin-left: 374px;
+}
+
+#KaloryferWlaczony_3{
+    
+  position: absolute;
+   float:left;
+   
+   margin-top: 429px;
+     margin-left: 210px;
+   
+}
+
+#KaloryferWlaczony_4{
+    position: absolute;
+     float:left;
+     
+      margin-top: 428px;
+     margin-left: 460px;
+     
+     
+}
+
+
+#KlimatyzacjaWlaczona_1{
+     position: absolute;
+     float:left;
+      margin-top: 275.5px;
+     margin-left: 149.5px;
+}
+
+#KlimatyzacjaWlaczona_2{
+     position: absolute;
+     float:left;
+       margin-top: 275.5px;
+     margin-left: 374px;
+}
+
+
+#SwiatloWlaczone_1{
+    
+     position: absolute;
+     float:left;
+        margin-top: 138px;
+     margin-left: 274px;
+}
+#SwiatloWlaczone_2{
+    
+     position: absolute;
+     float:left;
+        margin-top: 138px;
+     margin-left: 338px;
+}
+#SwiatloWlaczone_3{
+    
+     position: absolute;
+     float:left;
+        margin-top: 286px;
+     margin-left: 60px;
+}
+
+#SwiatloWlaczone_4{
+    
+     position: absolute;
+     float:left;
+       margin-top: 296px;
+     margin-left: 575px;
+}
+
+#OknoDachoweOtwarte{
+     position: absolute;
+     float:left;
+       margin-top: 150px;
+       margin-left: 479px;
+     
+}
+
+
+#OknoLeweOtwarte{
+     position: absolute;
+     float:left;
+           margin-top: 336px;
+     margin-left: 17px;
+     
+     
+}
+
+
+#OknoPraweOtwarte{
+    
+ position: absolute;
+     float:left;
+        margin-top: 340px;
+         margin-left: 634px;
+}
+
+
+#temperatura{
+    
+ 
+     float:right;
+    
+}
+
+#Ustawienia{
+    
+   position: relative;
+     float:right;
+     margin-right: 20px;
+    
+}
