@@ -301,7 +301,16 @@ and open the template in the editor.
 			});
 
 
-			updateValues();
+
+			//update lights
+			$(document).ready(function() {
+
+				$('#myonoffswitchSwiatla').change(function() {
+					updateLights();					     
+				});
+				
+		
+			});
 			
 		</script>
     </body>

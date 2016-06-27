@@ -9,7 +9,7 @@ function updateValues() {
 	to = $('#temperaturaZewnetrzna').val();
 	tw = $('#temperaturaWnetrze').val();
 	wiatr = $('#myonoffswitchWiatr').is(":checked");
-	deszcz = $('#myonoffswitchDeszcz').is(":checked")
+	deszcz = $('#myonoffswitchDeszcz').is(":checked");
 }
 
 function updateOutputs() {
@@ -73,6 +73,20 @@ function updateOutputs() {
 		$('#KaloryferWlaczony_3').hide();		
 		$('#KaloryferWlaczony_4').hide();
 		$('#myonoffswitchOgrzewanie').prop('checked', false);
+	}
+}
+
+function updateLights() {
+	if ( $('#myonoffswitchSwiatla').is(":checked") ) {
+		$("#SwiatloWlaczone_1").show();
+		$("#SwiatloWlaczone_2").show();
+		$("#SwiatloWlaczone_3").show();
+		$("#SwiatloWlaczone_4").show();
+	} else {
+		$("#SwiatloWlaczone_1").hide();
+		$("#SwiatloWlaczone_2").hide();
+		$("#SwiatloWlaczone_3").hide();
+		$("#SwiatloWlaczone_4").hide();	
 	}
 }
 
