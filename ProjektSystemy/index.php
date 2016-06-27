@@ -157,8 +157,19 @@ and open the template in the editor.
                         </div>
 
                     </td>
+                </tr>
+                <tr>
+                    <td>światło</td>
+  <td>       
+                        <div class="onoffswitchSwiatla">
+                            <input type="checkbox" name="onoffswitchWiatr" class="onoffswitchSwiatla-checkbox" id="myonoffswitchSwiatla">
+                            <label class="onoffswitchSwiatla-label" for="myonoffswitchSwiatla">
+                                <span class="onoffswitchSwiatla-inner"></span>
+                                <span class="onoffswitchSwiatla-switch"></span>
+                            </label>
+                        </div>
 
-
+                    </td>
 
                 </tr>
 
@@ -237,7 +248,7 @@ and open the template in the editor.
         <?php
         // put your code here
         ?>
-<!--        <script>
+        <script>
 			// visulase rain state
 			$(document).ready(function() {
 
@@ -292,6 +303,6 @@ and open the template in the editor.
 
 			updateValues();
 			
-		</script>-->
+		</script>
     </body>
 </html>

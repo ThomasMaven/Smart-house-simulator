@@ -196,7 +196,8 @@
 .onoffswitchOknoEwelacyjne,
 .onoffswitchOknoDachowe,
 .onoffswitchOgrzewanie,
-.onoffswitchKlimatyzacja{
+.onoffswitchKlimatyzacja,
+.onoffswitchSwiatla{
     position: relative; width: 90px;
     -webkit-user-select:none; -moz-user-select:none; -ms-user-select: none;
 }
@@ -205,7 +206,8 @@
 .onoffswitchOknoEwelacyjne-checkbox,
 .onoffswitchOknoDachowe-checkbox,
 .onoffswitchOgrzewanie-checkbox,
-.onoffswitchKlimatyzacja-checkbox {
+.onoffswitchKlimatyzacja-checkbox,
+.onoffswitchSwiatla-checkbox{
     display: none;
 }
 .onoffswitchDeszcz-label, 
@@ -213,7 +215,8 @@
 .onoffswitchOknoEwelacyjne-label, 
 .onoffswitchOknoDachowe-label, 
 .onoffswitchOgrzewanie-label, 
-.onoffswitchKlimatyzacja-label{
+.onoffswitchKlimatyzacja-label,
+.onoffswitchSwiatla-label{
     display: block; overflow: hidden; cursor: pointer;
     border: 2px solid #999999; border-radius: 20px;
 }
@@ -222,7 +225,8 @@
 .onoffswitchOknoEwelacyjne-inner,
 .onoffswitchOknoDachowe-inner,
 .onoffswitchOgrzewanie-inner,
-.onoffswitchKlimatyzacja-inner{
+.onoffswitchKlimatyzacja-inner,
+.onoffswitchSwiatla-inner{
     display: block; width: 200%; margin-left: -100%;
     transition: margin 0.3s ease-in 0s;
 }
@@ -231,7 +235,8 @@
 .onoffswitchOknoEwelacyjne-inner:before, .onoffswitchOknoEwelacyjne-inner:after, 
 .onoffswitchOknoDachowe-inner:before, .onoffswitchOknoDachowe-inner:after, 
 .onoffswitchOgrzewanie-inner:before, .onoffswitchOgrzewanie-inner:after, 
-.onoffswitchKlimatyzacja-inner:before, .onoffswitchKlimatyzacja-inner:after     {
+.onoffswitchKlimatyzacja-inner:before, .onoffswitchKlimatyzacja-inner:after,
+.onoffswitchSwiatla-inner:before, .onoffswitchSwiatla-inner:after{
     display: block; float: left; width: 50%; height: 30px; padding: 0; line-height: 30px;
     font-size: 14px; color: white; font-family: Trebuchet, Arial, sans-serif; font-weight: bold;
     box-sizing: border-box;
@@ -242,7 +247,8 @@
 .onoffswitchOknoEwelacyjne-inner:before,
 .onoffswitchOknoDachowe-inner:before,
 .onoffswitchOgrzewanie-inner:before,
-.onoffswitchKlimatyzacja-inner:before
+.onoffswitchKlimatyzacja-inner:before,
+.onoffswitchSwiatla-inner:before
 {
     content: "ON";
     padding-left: 10px;
@@ -253,7 +259,8 @@
 .onoffswitchOknoEwelacyjne-inner:after,
 .onoffswitchOknoDachowe-inner:after,
 .onoffswitchOgrzewanie-inner:after,
-.onoffswitchKlimatyzacja-inner:after{
+.onoffswitchKlimatyzacja-inner:after,
+.onoffswitchSwiatla-inner:after{
     content: "OFF";
     padding-right: 10px;
     background-color: #EEEEEE; color: #999999;
@@ -264,7 +271,8 @@
 .onoffswitchOknoEwelacyjne-switch,
 .onoffswitchOknoDachowe-switch,
 .onoffswitchOgrzewanie-switch,
-.onoffswitchKlimatyzacja-switch
+.onoffswitchKlimatyzacja-switch,
+.onoffswitchSwiatla-switch
 {
     display: block; width: 18px; margin: 6px;
     background: #FFFFFF;
@@ -326,6 +334,15 @@
     margin-left: 0;
 }
 .onoffswitchKlimatyzacja-checkbox:checked + .onoffswitchKlimatyzacja-label .onoffswitchKlimatyzacja-switch {
+    right: 0px; 
+}
+
+
+
+.onoffswitchSwiatla-checkbox:checked + .onoffswitchSwiatla-label .onoffswitchSwiatla-inner {
+    margin-left: 0;
+}
+.onoffswitchSwiatla-checkbox:checked + .onoffswitchSwiatla-label .onoffswitchSwiatla-switch {
     right: 0px; 
 }
 
