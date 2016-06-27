@@ -21,11 +21,13 @@ function updateOutputs() {
 	//set okno dachowe state
 	if (!wiatr && !deszcz && ( ( to<tz && tz<tw ) || ( to>tz && tz > tw ) ) ){
 		$('#OknoDachoweOtwarte').show();
+		$('#OknoDachoweOtwarteLewe').show();
 		$('#myonoffswitchOknoDachowe').prop('checked', true);
 		oknoOtwarte = true;
 		
 	} else {
 		$('#OknoDachoweOtwarte').hide();
+		$('#OknoDachoweOtwarteLewe').hide();
 		$('#myonoffswitchOknoDachowe').prop('checked', false);
 	}
 	
@@ -47,10 +49,14 @@ function updateOutputs() {
 	if ( !oknoOtwarte && tz<tw ) {
 		$('#KlimatyzacjaWlaczona_1').show();
 		$('#KlimatyzacjaWlaczona_2').show();
+		$('#KlimatyzacjaWlaczona_3').show();
+		$('#KlimatyzacjaWlaczona_4').show();
 		$('#myonoffswitchKlimatyzacja').prop('checked', true);
 	} else {
 		$('#KlimatyzacjaWlaczona_1').hide();
 		$('#KlimatyzacjaWlaczona_2').hide();
+		$('#KlimatyzacjaWlaczona_3').hide();
+		$('#KlimatyzacjaWlaczona_4').hide();
 		$('#myonoffswitchKlimatyzacja').prop('checked', false);
 	}
 	
