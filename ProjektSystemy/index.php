@@ -66,6 +66,12 @@ and open the template in the editor.
 		                <img src="content/img/dachowe okienko na świat otworzone.png" alt=""/>
 
 		            </div>
+                            
+                            <div  class="OknoPodOtw2" id="OknoDachoweOtwarteLewe">
+                                <img src="content/img/OknoDachoweLewe.png" alt=""/>
+
+		            </div>
+                            
 
 		            <div id="SwiatloWlaczone_1">
 		                <img src="content/img/lampeczka świeci.png" alt=""/>
@@ -93,6 +99,16 @@ and open the template in the editor.
 		            <div id="KlimatyzacjaWlaczona_2">
 		                <img src="content/img/nibyklima dziala.png" alt=""/>
 		            </div>
+                            
+                              <div id="KlimatyzacjaWlaczona_3">
+                                  <img src="content/img/klimatyzacjaGorna.png" alt=""/>
+		            </div>
+                            
+                            <div id="KlimatyzacjaWlaczona_4">
+		                <img src="content/img/klimatyzacjaGorna.png" alt=""/>
+		            </div>
+                            
+                            
 		        </div>
 
             <div class="panel-default">
@@ -221,7 +237,7 @@ and open the template in the editor.
         <?php
         // put your code here
         ?>
-        <script>
+<!--        <script>
 			// visulase rain state
 			$(document).ready(function() {
 
@@ -276,6 +292,6 @@ and open the template in the editor.
 
 			updateValues();
 			
-		</script>
+		</script>-->
     </body>
 </html>
